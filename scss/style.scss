@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.wrapper {
+  // width: 1440px;
+
+  // height: 1700px;
+  min-height: 100%;
+  // background: url("../img/Ellipse_1_copy.png") 700px 70px no-repeat;
+  background: url("../img/Ellipse_1_copy.png") 50% 122px no-repeat;
+  // background-position: top;
+  background-color: #e8e8e8;
+}
+
+body {
+  // background: url("../img/Ellipse_1_copy.png") 700px 70px no-repeat;
+  // background-position: top;
+  // background-color: rgb(198, 195, 195);
+}
+
+.container {
+  max-width: 842px;
+  // height: 1472px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0 0 137px 0;
+  //   background-color: rgb(198, 195, 195);
+  // max-width: 841px;
+  // margin: 0px auto;
+  // padding: 125px 0 137px 0;
+}
+
+.texs_centr {
+  text-align: center;
+}
+
+.giris {
+  opacity: 0.6;
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+  padding-top: 142px;
+  padding-bottom: 25px;
+  font-family: Arial;
+  // text-align: center;
+  font-size: 14px;
+  // line-height: 20px;
+}
+
+.yazgy {
+  font-family: "Times New Roman", Times, serif;
+  max-width: 725px;
+  // margin-left: 240px;
+  margin: 0 auto;
+  // text-align: center;
+  font-size: 36px;
+  line-height: 50px;
+  padding-bottom: 70px;
+}
+
+.image {
+  background-color: white;
+  padding: 10px;
+}
+
+.img {
+  vertical-align: top;
+}
+
+.footer {
+  max-width: 737px;
+  margin: 0 auto;
+}
+
+.text_button {
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+  margin: 0 auto;
+  // margin-left: 30px;
+  margin-top: 90px;
+  // max-width: 790px;
+  font-size: 24px;
+  line-height: 40px;
+  color: #273d46;
+  opacity: 0.8;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+ul li {
+  position: relative;
+  font-size: 24px;
+  line-height: 40px;
+  margin-left: 30px;
+}
+
+li::before {
+  content: url("../img/check_icon.png");
+  position: absolute;
+  left: -35px;
+  // position: absolute;
+}
+
+.arial {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  color: #273d46;
+}
+
+.italic {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #80b7b3;
+}
+
+.bold {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.linya {
+  opacity: 0.3;
+  text-decoration: line-through;
+}
+
+button {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin-top: 60px;
+  width: 200px;
+  height: 44px;
+  border-radius: 30px;
+  border: none;
+  background-color: #80b7b3;
+  text-transform: uppercase;
+  color: white;
+  // box-shadow: 0px 5px 0 rgba(0, 0, 0, 0.5);
+  border-bottom: 7px solid gray;
+}
+
+.dinle {
+  position: relative;
+  left: 5px;
+  top: 2px;
+}
+
+button:active {
+  background-color: greenyellow;
+  color: #000;
+}
+
+a {
+  color: white;
+}
